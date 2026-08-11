@@ -997,8 +997,7 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
               className="group/link flex items-center gap-3 text-sm font-medium text-white transition-colors hover:text-[#FFD400]"
-            >npm run build
-              Lihat Sertifikat
+            >Lihat Sertifikat
               <span className="transition-transform duration-300 group-hover/link:translate-x-1">
                 →
               </span>
