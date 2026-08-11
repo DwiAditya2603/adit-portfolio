@@ -16,6 +16,19 @@ export const metadata: Metadata = {
   title: "MUH.ADITYA DWIJAYA — Portfolio",
   description:
     "Portfolio MUH.ADITYA DWIJAYA — Informatics, Project Management, UI/UX Design & Creative Design.",
+  openGraph: {
+    title: "MUH.ADITYA DWIJAYA — Portfolio",
+    description:
+      "Portfolio MUH.ADITYA DWIJAYA — Informatics, Project Management, UI/UX Design & Creative Design.",
+    images: [
+      {
+        url: "/images/profile.jpg",
+        width: 1200,
+        height: 630,
+        alt: "MUH.ADITYA DWIJAYA",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
