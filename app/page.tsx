@@ -980,6 +980,31 @@ export default function Home() {
               Sertifikasi
             </p>
           </div>
+          {/* ANDROID */}
+          <div className="group flex items-center justify-between rounded-lg border border-white/10 bg-[#0D0D0D] px-5 py-4 transition-all duration-300 hover:-translate-y-1 hover:border-[#FFD400]/40 sm:px-6">
+            <div className="flex items-center gap-5">
+              <span className="text-xs font-medium text-[#FFD400]">2024</span>
+              <div>
+                <h3 className="text-sm font-semibold text-white">Android Mobile Development & UI UX Design</h3>
+
+                <p className="mt-1 text-xs text-gray-500">
+                  Infinite Learning
+                </p>
+              </div>
+            </div>
+            <a
+              href="/documents/SERTIFIKAT4-MUH.ADITYA DWIJAYA.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group/link flex items-center gap-3 text-sm font-medium text-white transition-colors hover:text-[#FFD400]"
+            >
+              Lihat Sertifikat
+              <span className="transition-transform duration-300 group-hover/link:translate-x-1">
+                →
+              </span>
+            </a>
+          </div>
+
 
           {/* TOEFLE */}
           <div className="group flex items-center justify-between rounded-lg border border-white/10 bg-[#0D0D0D] px-5 py-4 transition-all duration-300 hover:-translate-y-1 hover:border-[#FFD400]/40 sm:px-6">
@@ -989,12 +1014,12 @@ export default function Home() {
                 <h3 className="text-sm font-semibold text-white">TOEFL TEST</h3>
 
                 <p className="mt-1 text-xs text-gray-500">
-                  UPA Bahasa Univeritas Mataram
+                  UPA Bahasa Univeritas Pembangunan Nasional Veteran Yogyakarta
                 </p>
               </div>
             </div>
             <a
-              href="/documents/JURNAL-RFID-MUH.ADITYA DWIJAYA.pdf"
+              href="/documents/SERTIFIKAT5-MUH.ADITYA DWIJAYA.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="group/link flex items-center gap-3 text-sm font-medium text-white transition-colors hover:text-[#FFD400]"
