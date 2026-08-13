@@ -56,9 +56,9 @@ export default function Home() {
 
           {/* CV Button */}
           <a
-            href="public/documents/CV-MUH.ADITYA DWIJAYA.pdf"
+            href="/documents/CV-MUH.ADITYA DWIJAYA.pdf"
             download
-            className="hidden rounded 2xl border border-[#FFD400] px-5 py-2 text-sm font-medium text-[#FFD400] transition hover:bg-[#FFD400] hover:text-black sm:block"
+            className="inline-flex w-fit items-center rounded-lg border border-[#FFD400] px-5 py-2 text-sm font-medium text-[#FFD400] transition hover:bg-[#FFD400] hover:text-black"
           >
             Unduh CV ↗
           </a>
@@ -94,17 +94,18 @@ export default function Home() {
             <div className="mt-4 flex flex-wrap gap-4">
               <a
                 href="#projects"
-                className="hidden rounded 2xl border border-[#FFD400] px-5 py-4.5 text-sm font-medium text-[#FFD400] transition hover:bg-[#FFD400] hover:text-black sm:block"
+                className="rounded-lg border border-[#FFD400] px-5 py-4.5 text-sm font-medium text-[#FFD400] transition hover:bg-[#FFD400] hover:text-black"
               >
-                Lihat Proyek →
+                Lihat Proyek
               </a>
 
               <a
                 href="#about"
-                className="rounded 2xl border border-[#FFD400] px-5 py-4.5 text-sm font-medium text-[#FFD400] transition hover:bg-[#FFD400] hover:text-black sm:block"
+                className="rounded-lg border border-[#FFD400] px-5 py-4.5 text-sm font-medium text-[#FFD400] transition hover:bg-[#FFD400] hover:text-black"
               >
                 Tentang Saya
               </a>
+
               <div className="mt-8 flex flex-wrap gap-6 border-t border-white/10 pt-6"></div>
             </div>
           </div>
@@ -140,7 +141,7 @@ export default function Home() {
               MUH.ADITYA DWIJAYA
             </h2>
 
-            <div className="mx-auto mt-3 h-px w-127 bg-[#FFD400]" />
+            <div className="mx-auto mt-3 h-1 w-[60%] max-w-[508px] bg-[#FFD400]" />
           </div>
 
           {/* About Text */}
@@ -202,7 +203,7 @@ export default function Home() {
               Tools & kemampuan utama.
             </h2>
 
-            <div className="mx-auto mt-4 h-px w-152 bg-[#FFD400]" />
+            <div className="mx-auto mt-3 h-1 w-[60%] max-w-[508px] bg-[#FFD400]" />
           </div>
 
           {/* Skills Grid */}
@@ -364,7 +365,7 @@ export default function Home() {
               Beberapa Proyek Saya.
             </h2>
 
-            <div className="mx-auto mt-8 h-px w-127 bg-[#FFD400]" />
+            <div className="mx-auto mt-3 h-1 w-[60%] max-w-[508px] bg-[#FFD400]" />
           </div>
 
           {/* Featured Technical Project — Skripsi */}
@@ -690,7 +691,7 @@ export default function Home() {
               Beberapa Pengalama & Peran Saya.
             </h2>
 
-            <div className="mx-auto mt-6 h-px w-195 bg-[#FFD400]" />
+            <div className="mx-auto mt-3 h-1 w-[60%] max-w-[508px] bg-[#FFD400]" />
           </div>
 
           {/* Experience List */}
@@ -906,7 +907,7 @@ export default function Home() {
             Beberapa Pencapaian & Sertifikasi Saya.
           </h2>
 
-          <div className="mx-auto mt-3 h-px w-220 bg-[#FFD400]" />
+          <div className="mx-auto mt-3 h-1 w-[60%] max-w-[508px] bg-[#FFD400]" />
         </div>
 
         {/* Achievement */}
@@ -980,7 +981,7 @@ export default function Home() {
             </p>
           </div>
 
-          {/* UX Design */}
+          {/* TOEFLE */}
           <div className="group flex items-center justify-between rounded-lg border border-white/10 bg-[#0D0D0D] px-5 py-4 transition-all duration-300 hover:-translate-y-1 hover:border-[#FFD400]/40 sm:px-6">
             <div className="flex items-center gap-5">
               <span className="text-xs font-medium text-[#FFD400]">2026</span>
@@ -997,7 +998,32 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
               className="group/link flex items-center gap-3 text-sm font-medium text-white transition-colors hover:text-[#FFD400]"
-            >Lihat Sertifikat
+            >
+              Lihat Sertifikat
+              <span className="transition-transform duration-300 group-hover/link:translate-x-1">
+                →
+              </span>
+            </a>
+          </div>
+          {/* COURSE */}
+          <div className="group flex items-center justify-between rounded-lg border border-white/10 bg-[#0D0D0D] px-5 py-4 transition-all duration-300 hover:-translate-y-1 hover:border-[#FFD400]/40 sm:px-6">
+            <div className="flex items-center gap-5">
+              <span className="text-xs font-medium text-[#FFD400]">2026</span>
+              <div>
+                <h3 className="text-sm font-semibold text-white">
+                  Microsoft Excel: Learn with Projects
+                </h3>
+
+                <p className="mt-1 text-xs text-gray-500">Coursera</p>
+              </div>
+            </div>
+            <a
+              href="/documents/SERTIFIKAT3-MUH.ADITYA DWIJAYA.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group/link flex items-center gap-3 text-sm font-medium text-white transition-colors hover:text-[#FFD400]"
+            >
+              Lihat Sertifikat
               <span className="transition-transform duration-300 group-hover/link:translate-x-1">
                 →
               </span>
@@ -1035,9 +1061,7 @@ export default function Home() {
               <FontAwesomeIcon icon={faEnvelope} className="h-4 w-4 shrink-0" />
 
               <div>
-                <p className="text-xs font-semibold">
-                  dwi.aditya2603@gmail.com
-                </p>
+                <p className="text-xs font-semibold">Gmail</p>
 
                 <p className="mt-0.5 text-[11px] opacity-50">Kirim email →</p>
               </div>
